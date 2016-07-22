@@ -1,0 +1,18 @@
+{
+  "name": "alto-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Medium-to-high contrast theme. Somewhat 'generic', pleasant colours.",
+  "keywords": [
+    "syntax",
+    "green",
+    "violet",
+    "magenta",
+    "light"
+  ],
+  "repository": "https://github.com/protesilaos/alto-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  }
+}
