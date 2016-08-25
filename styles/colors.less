@@ -1,49 +1,49 @@
-// Alto Syntax Theme
-
 // Color scheme -----------------------------------
 
-@dbg: #181D1A; // Dark background
-@dhl: #282D2A; // Dark highlight
-@dt2: #686D6A; // Dark bg text secondary
-@dt1: #989D9A; // Dark bg text primary
+@dbg: #182D2A; // Dark background
+@dhl: #283D3A; // Dark highlight
+@dt2: #687D7A; // Dark bg text secondary
+@dt1: #98ADAA; // Dark bg text primary
 
-@lbg: #FAFBFC; // Light background
-@lhl: #EAEBEC; // Light highlight
-@lt2: #8A8B8C; // Light bg text secondary
-@lt1: #4A4B4C; // Light bg text primary
+@lbg: #FAFAEC; // Light background
+@lhl: #EAEADC; // Light highlight
+@lt2: #8A8A7C; // Light bg text secondary
+@lt1: #5A5A4C; // Light bg text primary
 
 @red: #C6414D; // Red
-@ora: #D9754D; // Orange
-@yel: #D9A53D; // Yellow
-@gre: #679D35; // Green
+@ora: #C9753D; // Orange
+@yel: #C6A13D; // Yellow
+@gre: #679945; // Green
 
-@cya: #379AAB; // Cyan
-@blu: #267DC6; // Blue
-@vio: #9E6BCD; // Violet
-@mag: #DC6C95; // Magenta
+@cya: #57AB8B; // Cyan
+@blu: #378BBD; // Blue
+@vio: #9A7BC8; // Violet
+@mag: #C97885; // Magenta
 
-// Variables -----------------------------------
+// Visual order -----------------------------------
 
-@text-1: @lt1; // text primary
-@text-2: @lt2; // text secondary
+@primary1: @blu;
+@primary2: @mag;
+@primary3: @gre;
 
-@color-1: @gre; // color primary
-@color-2: @mag; // color secondary
-@color-3: @vio; // color tertiary
+@secondary1: @cya;
+@secondary2: @vio;
 
-@support-1: @cya; // support primary
-@support-2: @ora; // support secondary
+@tertiary1: @ora;
+@tertiary2: @yel;
+@tertiary3: @red;
 
-@accent-1: @blu; // accent primary
-@accent-2: @yel; // accent secondary
-@accent-3: @red; // accent tertiary
+// Theme variant ----------------------------------
 
-// Base vars -----------------------------------
-
-@syntax-fg: @text-1; // text primary
-@syntax-accent: @accent-1; // accent primary
+@text1: @lt1; // text primary
+@text2: @lt2; // text secondary
 @syntax-bg: @lbg; // background
 @syntax-guide: @lhl; // background highlight
+
+// Atom Base vars ---------------------------------
+
+@syntax-fg: @text1; // text primary
+@syntax-accent: @tertiary1; // cursor, markdown preview links, etc.
 @syntax-selection: @syntax-guide;
 @syntax-selection-gutter: @syntax-guide;
 @syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
