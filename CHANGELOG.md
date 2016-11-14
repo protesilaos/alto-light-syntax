@@ -26,3 +26,8 @@
   - `primary3` from `mag` to `gre`
   - `secondary2` from `ora` to `vio`
   - `tertiary1` from `blu` to `ora`
+
+## 1.1.0
+- Refinements to JavaScript.
+- Refinements to Markdown.
+- Minor improvements to editor styles.
