@@ -22,6 +22,6 @@ apm install alto-syntax
 
 ## Further information
 
-Project page: [http://www.protesilaos.com/alto](http://www.protesilaos.com/alto)
+Project page: [https://protesilaos.com/alto](https://protesilaos.com/alto)
 
 Alto dark version: [https://atom.io/themes/alto-dark-syntax](https://atom.io/themes/alto-dark-syntax)
