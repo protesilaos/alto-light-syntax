@@ -1,16 +1,21 @@
 # Alto syntax theme (light version)
 
-Medium-to-high contrast theme. The most prevalent colours are variants of blue, magenta, green, cyan, and violet.
+Medium contrast theme with a somewhat 'generic' palette. The most prevalent colours are variants of blue, green, violet, cyan, and magenta.
 
 *Alto* comes in standalone light and dark versions (see further info below).
 
-## Screenshot
+## Screenshots
 
-![alto light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/alto/img/alto_light_sample.png)
+![alto light screenshot html](https://raw.githubusercontent.com/protesilaos/prot16/master/alto/img/alto_light_html.png)
 
-*The font is [Iosevka term slab](https://github.com/be5invis/Iosevka)*.  
-*JavaScript demo is source code of [prismjs](http://prismjs.com/)*  
-*The UI is my experimental fork of the default One Dark*.
+![alto light screenshot scss](https://raw.githubusercontent.com/protesilaos/prot16/master/alto/img/alto_light_scss.png)
+
+![alto light screenshot js](https://raw.githubusercontent.com/protesilaos/prot16/master/alto/img/alto_light_js.png)
+
+![alto light screenshot md](https://raw.githubusercontent.com/protesilaos/prot16/master/alto/img/alto_light_md.png)
+
+*The font is [Iosevka term](https://github.com/be5invis/Iosevka)*.  
+*The UI is [Atom Material](https://github.com/atom-material/atom-material-ui)*.
 
 ## Download
 

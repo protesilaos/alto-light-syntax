@@ -31,3 +31,10 @@
 - Refinements to JavaScript.
 - Refinements to Markdown.
 - Minor improvements to editor styles.
+
+## 1.2.0
+- Added macro highlighting for Rust.
+- Changed visual order
+  - `primary2` from `mag` to `gre`
+  - `primary3` from `gre` to `vio`
+  - `secondary2` from `vio` to `mag`
